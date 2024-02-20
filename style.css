@@ -1,0 +1,580 @@
+@font-face {
+    font-family: cuyabra;
+    font-style: normal;
+    src: local('cuyabra'), url(https://fonts.cdnfonts.com/s/23327/cuyabra.woff) format('woff')
+}
+
+
+.logo {
+    width: 300px;
+    height: auto;
+}
+
+.header {
+    background-image: linear-gradient(to right, #0B6B6B, #00B3BB);
+    /*
+        background-image: linear-gradient(to right, #7F216E, #FF9657);
+    */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+span,
+p {
+    font-family: 'cuyabra';
+}
+
+
+.f18 {
+    font-size: 2.375rem !important;
+}
+
+@media screen and (max-width: 700px) {
+    .f18 {
+        font-size: 1.375rem !important;
+    }
+}
+
+.f27 {
+    font-size: 3.75rem !important;
+}
+
+@media screen and (max-width: 700px) {
+    .f27 {
+        font-size: 1.8rem !important;
+    }
+}
+
+.f25 {
+    font-size: 3.75rem !important;
+    color: #0B6B6B;
+}
+
+@media screen and (max-width: 1200px) {
+    .f25 {
+        font-size: 3rem !important;
+        margin-top: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .f25 {
+        font-size: 2rem !important;
+        margin-top: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .f25 {
+        font-size: 1.8rem !important;
+        margin-top: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .f25 {
+        font-size: 2rem !important;
+        margin-top: -1rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .f25 {
+        font-size: 1.8rem !important;
+        margin-top: -1rem;
+    }
+}
+
+
+.f17 {
+    font-size: 2rem !important;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.f17 br {
+    display: inline-block;
+    content: "";
+}
+
+@media screen and (max-width: 700px) {
+    .f17 {
+        font-size: 1.28rem !important;
+    }
+}
+
+.f14 {
+    font-size: 1.875rem !important;
+    text-align: justify;
+}
+
+.f14 br {
+    display: inline-block;
+    content: "";
+}
+
+@media screen and (max-width: 700px) {
+    .f14 {
+        font-size: 1.28rem !important;
+    }
+}
+
+.f7 {
+    font-size: 1.875rem !important;
+}
+
+@media screen and (max-width: 700px) {
+    .f7 {
+        font-size: 1.375rem !important;
+    }
+}
+
+.f80 {
+    font-size: 1.375rem !important;
+}
+
+@media screen and (max-width: 992px) {
+    .f80 {
+        font-size: 1.2rem !important;
+    }
+}
+
+@media screen and (max-width: 708px) {
+    .f80 {
+        font-size: 0.9rem !important;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .f80 {
+        font-size: 1rem !important;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .f80 {
+        font-size: 0.9rem !important;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .f80 {
+        font-size: 0.8rem !important;
+    }
+}
+
+
+.f3 {
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .f3 {
+        font-size: 3rem !important;
+        margin-top: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .f3 {
+        font-size: 2rem !important;
+        margin-top: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .f3 {
+        font-size: 1.8rem !important;
+        margin-top: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .f3 {
+        font-size: 1.4rem !important;
+        margin-top: -1rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .f3 {
+        font-size: 1.8rem !important;
+        margin-top: -1rem;
+    }
+}
+
+
+@media (max-width: 770px) {
+    .container {
+        max-width: 720px !important;
+    }
+}
+
+@media (max-width: 700px) {
+    .container {
+        max-width: 500px !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .col-md-2 {
+        flex: 0 0 auto;
+        width: 100% !important;
+    }
+}
+
+.f95 {
+    font-size: 1.25rem !important;
+}
+
+@media screen and (max-width: 700px) {
+    .f95 {
+        font-size: 1.375rem !important;
+    }
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.px-11 {
+    padding-left: 11rem !important;
+    padding-right: 11rem !important;
+}
+
+@media screen and (max-width: 700px) {
+    .px-11 {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+
+    }
+}
+
+.sub-header {
+    /*
+        background-image: linear-gradient(to right, #00B3BB, #0B6B6B);
+    */
+    background-color: #FF9657;
+    height: 6rem;
+    margin-top: -10px;
+}
+
+.body {
+    background-image: linear-gradient(to top, #00B3BB, #0B6B6B);
+    /*
+    background-image: linear-gradient(to top, #FF9657, #7F216E);
+    */
+}
+
+.text-white {
+    color: #FFF;
+}
+
+input[type=text] {
+    color: #FFF !important;
+    background-color: #FF9657;
+    border-radius: 20px;
+    width: 25rem;
+    height: 35px;
+    border: none;
+    padding: 10px 30px 10px 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=submit] {
+    color: #0B6B6B !important;
+    background-color: #FF9657;
+    border-radius: 20px;
+    width: 8rem;
+    height: 35px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 600;
+}
+
+.text-orange {
+    color: #FF9657;
+}
+
+.round {
+    background-image: linear-gradient(to right, #00B3BB, #0B6B6B);
+    border-radius: 100px;
+}
+
+.round2 {
+    background-color: #0e9595;
+    border-radius: 100px;
+}
+
+.bg-blue-top-bottom {
+    background-image: linear-gradient(to bottom, #00B3BB, #0B6B6B);
+    height: 200px !important;
+    width: 420px !important;
+
+}
+
+.bg-blue-bottom-top {
+    background-image: linear-gradient(to top, #00B3BB, #0B6B6B);
+    height: 200px !important;
+    width: 420px !important;
+
+}
+
+.bg-orange {
+    background-image: linear-gradient(to bottom, #7F216E, #FF9657);
+    height: 200px !important;
+    width: 420px !important;
+}
+
+.dges img {
+    width: 250px !important;
+}
+
+.round2 img {
+    width: 200px;
+}
+
+@media screen and (max-width: 1400px) {
+    .dges img {
+        width: 200px !important;
+    }
+
+    .round2 img {
+        width: 150px;
+    }
+
+    .bg-blue-top-bottom {
+        background-image: linear-gradient(to bottom, #00B3BB, #0B6B6B);
+        height: 150px !important;
+        width: 338px !important;
+
+    }
+
+    .bg-blue-bottom-top {
+        background-image: linear-gradient(to top, #00B3BB, #0B6B6B);
+        height: 150px !important;
+        width: 338px !important;
+
+    }
+
+    .bg-orange {
+        background-image: linear-gradient(to bottom, #7F216E, #FF9657);
+        height: 150px !important;
+        width: 338px !important;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .dges img {
+        width: 200px !important;
+    }
+
+    .round2 img {
+        width: 100px;
+    }
+
+    .bg-blue-top-bottom {
+        background-image: linear-gradient(to bottom, #00B3BB, #0B6B6B);
+        height: 100px !important;
+        width: 248px !important;
+
+    }
+
+    .bg-blue-bottom-top {
+        background-image: linear-gradient(to top, #00B3BB, #0B6B6B);
+        height: 100px !important;
+        width: 248px !important;
+
+    }
+
+    .bg-orange {
+        background-image: linear-gradient(to bottom, #7F216E, #FF9657);
+        height: 100px !important;
+        width: 248px !important;
+    }
+}
+
+@media screen and (max-width: 993px) {
+    .dges img {
+        width: 150px !important;
+    }
+
+    .round2 img {
+        width: 60px;
+    }
+
+    .bg-blue-top-bottom {
+        background-image: linear-gradient(to bottom, #00B3BB, #0B6B6B);
+        height: 100px !important;
+        width: 248px !important;
+
+    }
+
+    .bg-blue-bottom-top {
+        background-image: linear-gradient(to top, #00B3BB, #0B6B6B);
+        height: 100px !important;
+        width: 248px !important;
+
+    }
+
+    .bg-orange {
+        background-image: linear-gradient(to bottom, #7F216E, #FF9657);
+        height: 100px !important;
+        width: 248px !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .dges img {
+        width: 150px !important;
+    }
+
+    .round2 img {
+        width: 100px;
+    }
+
+    .bg-blue-top-bottom {
+        background-image: linear-gradient(to bottom, #00B3BB, #0B6B6B);
+        height: 120px !important;
+        width: 100% !important;
+
+    }
+
+    .bg-blue-bottom-top {
+        background-image: linear-gradient(to top, #00B3BB, #0B6B6B);
+        height: 120px !important;
+        width: 100% !important;
+
+    }
+
+    .bg-orange {
+        background-image: linear-gradient(to bottom, #7F216E, #FF9657);
+        height: 120px !important;
+        width: 100% !important;
+    }
+}
+
+.dges:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+}
+
+.bg-blue-top-bottom:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+}
+
+.bg-orange:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+}
+
+.bg-blue-bottom-top:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+}
+
+
+.round-top {
+    background-image: linear-gradient(to right, #00B3BB, #0B6B6B);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.round-bottom {
+    background-image: linear-gradient(to right, #00B3BB, #0B6B6B);
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.wpp {
+    width: 200px;
+    height: 200px;
+    margin-top: -50px;
+}
+
+.wpp-btn {
+    background-color: #FF9657;
+    border-radius: 20px;
+    border: none;
+    width: 8rem;
+    height: 35px;
+    color: #0B6B6B;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: -50px;
+}
+
+.block {
+    display: block;
+}
+
+footer {
+    background-image: linear-gradient(to right, #00B3BB, #0B6B6B);
+}
+
+footer img {
+    width: 100%;
+}
+
+.icons img {
+    width: 200px;
+}
+
+.sucess {
+    background-color: #9fd2a1;
+    padding: 5px 10px;
+    text-align: center;
+    color: #326b07;
+    border-radius: 3px;
+    font-synthesis: 14px;
+}
+
+.w-100-md-75 {
+    width: 65% !important;
+}
+
+@media screen and (max-width: 700px) {
+    .w-100-md-75 {
+        width: 100% !important;
+    }
+}
+
+.pointer {
+    cursor: pointer !important;
+}
+
+.pulsing {
+    animation: pulse 2s linear infinite;
+}
+
+@keyframes pulse {
+    0% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    50% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    100% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
